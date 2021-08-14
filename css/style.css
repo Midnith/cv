@@ -1,0 +1,23 @@
+.profile-pic {
+  border-radius: 50%;
+  max-width: 10em;
+}
+td .profile-pic {
+  padding-right: 15%;
+}
+
+.row {
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+.row td {
+  width: 125px;
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.column:nth-of-type(2n){
+  margin-left: -70%;
+}
